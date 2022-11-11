@@ -12,5 +12,7 @@
  
  ## Citations
  * [Original Template](https://github.com/ewuweblab/dashboard-widgets-smart-mirror)
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/dashboard-widgets-smart-mirror"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
  
  
