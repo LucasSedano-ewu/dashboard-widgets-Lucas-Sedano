@@ -9,7 +9,7 @@
 
 /* Widgets */
 section {
-  background: lightgray;
+  background: rgba(211, 211, 211, 0.5);
   padding: 1em;
   
   /* Relative Parent. Absolute Child */
@@ -64,5 +64,23 @@ section {
 }
 
 .weather img {
+  
+}
+
+/* Smart Mirror */
+video { 
+  
+  /* Position video      */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Stretch to fill viewport */
+    width: 100vw;
+    height: 100vh;
+    /* stack behind content     */
+    z-index: -1;
+    /* fill background with video    */
+  object-fit: cover;
+  object-position: center;
   
 }
