@@ -3,3 +3,8 @@
  ## Citations
  * [Original Template](https://github.com/ewuweblab/dashboard-widgets-smart-mirror)
 
+ * [Cheney OpenWeather](https://openweathermap.org/city/5789856)
+
+ * [Fontshare](https://www.fontshare.com/fonts/quicksand)
+
+ * [Favicon](https://favicon.io/)
