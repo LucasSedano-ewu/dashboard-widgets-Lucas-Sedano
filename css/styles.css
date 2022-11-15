@@ -1,12 +1,22 @@
 @import url(quicksand.css);
 
+* {
+  box-sizing: border-box;
+}
+
+
 /* Grid */
 .layout {
   /* Set your own grid   */
   padding: 2rem;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 2rem;
+
+  height: 100vh;
 }
 
 /* Widgets */
@@ -18,93 +28,131 @@ section {
   box-shadow: 0 0 1rem #EFD3D7;
   /* Relative Parent. Absolute Child */
   position: relative;
+  min-width: 420px;
+  max-width: 1920px;
 }
 
 /* Time */
 .time {
   font-family: 'quicksand-bold';
-  font-size: 5rem;
-  color: #8E9AAF;
+  font-size: 3.5rem;
+  color: #CBC0D3;
   justify-content: center;
 }
 
 .hours {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 .minutes {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 .seconds {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 .amOrPM {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 /* Date */
 .date {
-  font-family: 'quicksand-regular';
-  font-size: 1.5rem;
+  font-family: 'quicksand-bold';
+  font-size: 1.8rem;
   text-align: center;
-  color: #8E9AAF;
+  color: #CBC0D3;
   
 }
 
 .month {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 .dayOfMonth {
   font-family: 'quicksand-regular';
+  text-align: center;
+  color: #8E9AAF;
 }
 
 .year {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 .dayOfWeek {
   font-family: 'quicksand-regular';
   text-align: center;
+  color: #8E9AAF;
 }
 
 /* Weather */
 .weather {
-  font-family: 'quicksand-regular';
-  font-size: 1.5rem;
+  font-family: 'quicksand-bold';
+  font-size: 1.8rem;
   text-align: center;
-  color: #8E9AAF;
+  color: #CBC0D3;
 }
 
 .city {
-  font-family: 'quicksand-regular';
-  text-align: center;
+  font-size: 3rem;
+  font-family: 'quicksand-bold';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8E9AAF;
 }
 
 .weather img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .temp {
-  font-family: 'quicksand-regular';
-  text-align: center;
+  font-size: 3rem;
+  font-family: 'quicksand-bold';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8E9AAF;
 }
 
 .humidity {
   font-family: 'quicksand-regular';
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8E9AAF;
 }
 
+.wind {
+  font-family: 'quicksand-regular';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8E9AAF;
+}
+
+.feelsLike {
+  font-family: 'quicksand-regular';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8E9AAF;
+}
 /* Smart Mirror */
 video { 
   
