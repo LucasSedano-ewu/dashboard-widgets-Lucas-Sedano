@@ -7,4 +7,4 @@
 
  * [Fontshare](https://www.fontshare.com/fonts/quicksand)
 
- *[Favicon](https://favicon.io/)
+ * [Favicon](https://favicon.io/)
